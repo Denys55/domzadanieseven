@@ -14,5 +14,10 @@ public class Main {
             System.out.println(s.name());
         }
 
+        TheName getName = new TheName();
+        String name1 = getName.Name(shape[2]);
+        System.out.println(name1);
+
+
     }
 }
